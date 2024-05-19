@@ -1,3 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: 'Steppe-Book';
+    src: url("../fonts/Steppe-Book.ttf");
+}
+
+@font-face {
+    font-family: 'Steppe-ExtraBold';
+    src: url("../fonts/Steppe-ExtraBold.ttf");
+}
+
+body {
+    background-color: #5243F4;
+    font-family: 'Steppe-Book', sans-serif;
+    color: white;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.button {
+    background: white;
+    border-radius: 60px;
+    width: 178px;
+    height: 58px;
+    box-sizing: border-box;
+    padding: 18px;
+    text-align: center;
+    font-size: 18px;
+    color: #5243F4;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+}
+
+.violet-button {
+    background-color: #5243F4;
+    color: white;
+}
+
+.button.violet-button:hover {
+    background-color: #3b2cd8;
+}
+
+.button:hover {
+    background-color: #eeeeee;
+}
+
+.common-title {
+    font-family: 'Steppe-ExtraBold';
+    font-size: 60px;
+    line-height: 100%;
+    text-align: center;
+}
+
 .main {
     position: relative;
     overflow: hidden;
@@ -303,8 +364,4 @@
     z-index: -1;
     top: -920px;
     left: 0;
-}
-
-.order-form-inputs input.error {
-    border-color: "red";
 }
