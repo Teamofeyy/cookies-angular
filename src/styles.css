@@ -17,7 +17,19 @@ body {
     background-color: #5243F4;
     font-family: 'Steppe-Book', sans-serif;
     color: white;
+    font-size: 16px;
 }
+  
+  @media (max-width: 768px) {
+    .common-title, .main-title, .love-item-title, .products-item-title {
+      font-size: 24px; /* Smaller font size for titles on smaller screens */
+    }
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+  }
 
 .container {
     max-width: 1200px;

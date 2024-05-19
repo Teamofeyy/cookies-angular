@@ -1,3 +1,4 @@
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <main class="main">
     <div class="currency" title="Изменить валюту" (click)="changeCurrency()">{{currency}}</div>
 <header class="header">
@@ -44,7 +45,7 @@
         <div class="products-items">
             <div class="products-item" *ngFor="let product of productsData">
                 <div class="products-item-image">
-                    <img src="./assets/images/{{product.image}}" alt="product">
+                    <img src="{{product.image}}" alt="product">
                 </div>
                 <div class="products-item-details">
                     <div class="products-item-title">{{product.title}}</div>
