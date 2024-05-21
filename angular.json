@@ -27,7 +27,7 @@
             "styles": [
               "src/styles.css"
             ],
-            "scripts": []
+            "scripts": ["src/assets/lottie-player.js"]
           },
           "configurations": {
             "production": {
@@ -44,7 +44,7 @@
                 }
               ],
               "outputHashing": "all",
-              "baseHref": "/fk-cookies/"
+              "baseHref": "/cookies/"
             },
             "development": {
               "buildOptimizer": false,
